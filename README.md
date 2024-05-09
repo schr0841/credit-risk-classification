@@ -6,15 +6,14 @@ Module 20 for the U of M Data Analytics and Visualization Bootcamp
 
 The purpose of this analysis was to predict whether an individual would default on their bank loan. The data had features that included the following:
 
-* Loan Features
-    -loan_size: size of the loan as measured in United States Dollars
-    -interest_rate: Rate of interest at the time the loan was issued	
-    -borrower_income: The income of the loan holder	
-    -debt_to_income: The total amount of debt of the loan holder divided by the income of the loan holder	
-    -num_of_accounts: The number of accounts the loan holder has with the bank	
-    -derogatory_marks: Number of times that the loan holder has been delinquent in their payments	
-    -total_debt: Total amount of debt of the loan holder	
-    -loan_status: Binary response variable. A value of 0 in the loan_status column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
+- loan_size: size of the loan as measured in United States Dollars
+- interest_rate: Rate of interest at the time the loan was issued	
+- borrower_income: The income of the loan holder	
+- debt_to_income: The total amount of debt of the loan holder divided by the income of the loan holder	
+- num_of_accounts: The number of accounts the loan holder has with the bank	
+- derogatory_marks: Number of times that the loan holder has been delinquent in their payments	
+- total_debt: Total amount of debt of the loan holder	
+- loan_status: Binary response variable. A value of 0 in the loan_status column means that the loan is healthy. A value of 1 means that the loan has a high risk of defaulting.
 
 
 We notice that there are imbalanced classes in this problem. Specifically, the 0's outnumber the 1's in the train and testing sets by about 30 to 1. Therefore, it is more important to classify the 1's correctly, and this will be the focus of our analysis.
