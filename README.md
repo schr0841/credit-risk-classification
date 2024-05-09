@@ -6,6 +6,7 @@ Module 20 for the U of M Data Analytics and Visualization Bootcamp
 
 The purpose of this analysis was to predict whether an individual would default on their bank loan. The data had features that included the following:
 
+* Feature list
 -loan_size: size of the loan as measured in United States Dollars
 -interest_rate: Rate of interest at the time the loan was issued	
 -borrower_income: The income of the loan holder	
